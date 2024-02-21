@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>BMARAS</title>
     <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
@@ -15,20 +15,21 @@
       <div class="container mx-auto flex justify-between items-center">
         <a
           href="index.html"
-          class="text-white text-lg font-bold hover:text-pink-200"
+          class="text-white text-lg only:font-bold hover:text-pink-200"
           >BMARAS</a
         >
 
         <ul class="flex space-x-4">
           <li>
-            <a href="#" class="text-black hover:text-pink-200">Photography</a>
+            <a href="#" class="text-white hover:text-pink-200">Photography</a>
           </li>
           <li>
-            <a href="#" class="text-black hover:text-pink-200">Designs</a>
+            <a href="#" class="text-white hover:text-pink-200">Designs</a>
           </li>
           <li>
-            <a href="#" class="text-black hover:text-pink-200">Contact</a>
+            <a href="#" class="text-white hover:text-pink-200">Contact</a>
           </li>
+       
         </ul>
       </div>
     </nav>
@@ -36,7 +37,7 @@
       <div
         class="w-full bg-center bg-cover"
         style="
-          background-image: url(https://images.pexels.com/photos/1122414/pexels-photo-1122414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+          background-image: url(https://images.pexels.com/photos/1391278/pexels-photo-1391278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
         "
       >
         <div
@@ -50,10 +51,10 @@
                 >
                   BMARAS
                 </h2>
-                <p class="max-w-3xl mx-auto mb-10 text-3xl text-gray-300">
+                <p class="max-w-3xl mx-auto mb-10 text-2xl text-gray-300 lg:text-3xl">
                   Creator & Artist
                 </p>
-                <p class="max-w-3xl mx-auto mb-10 text-2xl text-gray-300 text-">
+                <p class="max-w-3xl mx-auto mb-10 text-xl text-gray-300 lg:text-2xl">
                   Creating the best work to be proud of. I am an explorer who
                   designs and creates work that will portray your favorite
                   memories through film or photos.
@@ -64,6 +65,7 @@
         </div>
       </div>
     </header>
+
     <div
       class="flex flex-wrap justify-center mx-auto max-w-screen-xl text-white mb-24"
     >
@@ -80,7 +82,10 @@
         ></div>
         <h3 class="z-10 mt-3 text-3xl font-bold text-white hover:text-pink-200">
           About Me
+         
         </h3>
+      <br>
+      
       </article>
 
       <article
@@ -97,11 +102,12 @@
         <h3 class="z-10 mt-3 text-xl font-bold text-white hover:text-pink-200">
           Photography/Videography
         </h3>
+        <br>
         <div
           class="z-10 gap-y-1 overflow-hidden text-lg leading-6 text-gray-300"
         >
-          My love for photography and videography! Go through my favorite travel
-          places to document and some festival work!
+          Go through my favorite travel
+          places to document and some festival work I've done!
         </div>
       </article>
       <article
@@ -118,6 +124,7 @@
         <h3 class="z-10 mt-3 text-3xl font-bold text-white hover:text-pink-200">
           Designs
         </h3>
+        <br>
         <div
           class="z-10 gap-y-1 overflow-hidden text-lg leading-6 text-gray-300"
         >
@@ -126,20 +133,261 @@
         </div>
       </article>
     </div>
+    <div class="flex justify-center">
+      <div class="w-3/4">
+        <table class="min-w-full divide-y divide-gray-200 mb-24">
+          <thead class="bg-gray-200">
+            <tr>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Name
+              </th>
+              <th
+                class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+              >
+                Testimonials
+              </th>
+            </tr>
+          </thead>
+         
+            <!-- Odd row -->
+            <tr class="bg-gray-50">
+              <td class="px-6 py-4 whitespace-nowrap">John</td>
+              <td class="px-6 py-4 whitespace-nowrap">Great to work with!</td>
+
+              <!-- Even row -->
+            </tr>
+
+            <tr class="bg-white">
+              <td class="px-6 py-4 whitespace-nowrap">Jane</td>
+              <td class="px-6 py-4 whitespace-nowrap">Fast and Easy!</td>
+
+              <!-- Odd row -->
+            </tr>
+
+            <tr class="bg-gray-50">
+              <td class="px-6 py-4 whitespace-nowrap">Alice Smith</td>
+              <td class="px-6 py-4 whitespace-nowrap">Easy to work with!</td>
+
+              <!-- Even row -->
+            </tr>
+
+            <tr class="bg-white">
+              <td class="px-6 py-4 whitespace-nowrap">Bob Johnson</td>
+              <td class="px-6 py-4 whitespace-nowrap">Very Kind!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </body>
 
   <footer class="p-4 bg-gray-400 p-4 sm:p-6 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl text-white">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
-          <a href="https://flowbite.com" class="flex items-center">
-            <!-- logo here -->
-
+          <!-- <a href="#" class="flex items-center">
             <span
               class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white hover:text-pink-200"
               >BMARAS</span
-            >
-          </a>
+            > -->
+          <svg
+            class="w-20 h-25"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 436 399"
+          >
+            <ellipse
+              cx="106.7"
+              cy="236.8"
+              fill="#004B03"
+              rx="2.2"
+              ry="56.2"
+              transform="rotate(-30 107 237)"
+            />
+            <ellipse
+              cx="129.1"
+              cy="264.5"
+              fill="#004B03"
+              rx="1.7"
+              ry="15.2"
+              transform="rotate(-5 129 264)"
+            />
+            <ellipse
+              cx="96.6"
+              cy="249.5"
+              fill="#004B03"
+              rx="2.2"
+              ry="42.5"
+              transform="rotate(-53 97 250)"
+            />
+            <path
+              fill="#004B03"
+              fill-rule="evenodd"
+              d="m108 275-6-8 1-1 6 7h10v1l13 4v2l-13-5h-11Z"
+              clip-rule="evenodd"
+            />
+            <ellipse
+              cx="101.2"
+              cy="265.7"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(-25 101 266)"
+            />
+            <ellipse
+              cx="107.5"
+              cy="203.2"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(-25 108 203)"
+            />
+            <ellipse
+              cx="101.3"
+              cy="216"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(-25 101 216)"
+            />
+            <ellipse
+              cx="107.2"
+              cy="276.1"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(-25 107 276)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M69 216a22 22 0 0 1 2-5l3-2 2-1 3 1v1l1-1h3l2 2 1 3 1 4-1 4 4-1h3l2 2 1 2v1l1 1 2 2v2l-2 3-3 3-4 2h-1l-1 1a24 24 0 0 1 1 5v3l-2 2-3 1-1-1v2l-2 1h-2l-3-2-3-4-1-3-1 1-4 2-4 1h-4l-2-2v-4h-1l-2-2v-3l2-3a16 16 0 0 1 4-3l-3-3-2-4-1-3 1-3 2-1h1v-2l1-2 3-1 3 1 4 3Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="75.2"
+              cy="229.8"
+              r="4"
+              fill="#000"
+              transform="rotate(-25 75 230)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M66 159a22 22 0 0 1 2-4l2-3 3-1 2 1 1 1h1l3-1 2 2 1 3 1 5-1 3 4-1h3l2 2 1 3v1h1l2 2v3l-2 2-3 3-4 2v1-1h-1l-1 1a23 23 0 0 1 1 5v4l-2 2h-4v1l-2 2-3-1-2-2-3-3-1-3h-1v1l-4 1-4 1h-4l-2-2v-3l-1-1-2-2v-3l2-2a16 16 0 0 1 4-4l-3-3-2-4-1-3 1-3 2-1h1v-1l1-3h3l3 1 4 2Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="72.1"
+              cy="173.1"
+              r="4"
+              fill="#000"
+              transform="rotate(-25 72 173)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="m125 221 1 1a22 22 0 0 1 2-5l2-3h3l2 1 1 1 1-1h3l2 1 1 4v7l3-1 4 1 2 1 1 3-1 1h2l1 2v3l-1 3-3 3-5 2-1 1 1 5-1 3-1 2h-4v1l-2 2h-3l-3-2-2-4-2-3v1l-4 2-5 1-3-1-2-1-1-3 1-1-2-1-1-2v-2l2-3a16 16 0 0 1 4-3l-3-4-2-3-1-4 1-2 2-2h1v-1l1-2 2-1 4 1 3 2Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="131.9"
+              cy="235.5"
+              r="4"
+              fill="#000"
+              transform="rotate(-25 132 236)"
+            />
+            <path
+              fill="#004B03"
+              fill-rule="evenodd"
+              d="M128 167a1108 1108 0 0 1-8 33c5-6 10-11 11-10s-3 6-9 12l-8 9-4 9 1-7-1-1 1-2 2-5a473 473 0 0 1-7-80 610 610 0 0 1 9 73 1207 1207 0 0 1 28-86c1 1-6 25-15 55Z"
+              clip-rule="evenodd"
+            />
+            <path
+              fill="#004B03"
+              fill-rule="evenodd"
+              d="m137 149 13-5v2l-11 4-4 12-11 12-1-1 10-13 4-11Zm-38 44 1-10 2 1-1 9 7 7 5 13-2 1-5-13-7-8Z"
+              clip-rule="evenodd"
+            />
+            <ellipse
+              cx="101.1"
+              cy="181.6"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(23 101 182)"
+            />
+            <ellipse
+              cx="151.4"
+              cy="144"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(23 151 144)"
+            />
+            <ellipse
+              cx="137.8"
+              cy="148.1"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(23 138 148)"
+            />
+            <ellipse
+              cx="97.4"
+              cy="193"
+              fill="#fff"
+              rx="2.5"
+              ry="3"
+              transform="rotate(23 97 193)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M116 124v1l1-1 4-1h3l3 1v4h2l2 2v2l-2 4-3 3-2 2 2 2 3 2v3l-2 2-1 1 1 1v3l-2 2h-8l-4-2h-2a21 21 0 0 1-3 4l-3 2h-2l-2-2-1-1-1 1-2-1-2-2v-3l1-4 1-4h-1v1-1l-4-1-4-3-2-3v-2l2-2 1-1-1-1v-3l2-1 4-1a16 16 0 0 1 5 1v-4l2-5 2-3 2-1 2 1 1 1 1-1 3-1 2 1 1 4 1 4Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="110"
+              cy="138.2"
+              r="4"
+              fill="#000"
+              transform="rotate(23 110 138)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M156 83v1h1l4-2h3l2 1 1 3v1h1l2 2v3l-1 3-3 3-3 2 3 2 2 3v3l-1 2h-1l1 1-1 3-2 2-3 1-4-1-4-1h-1v-1h-1a22 22 0 0 1-3 4l-3 2h-3l-2-2h-4l-1-2-1-4 1-4 2-3h-2l-4-2-3-2-2-3v-3l1-2 1-1v-3l2-2 3-1a16 16 0 0 1 6 1v-4l1-4 2-3 3-1h2l1 1 1-1h2l2 1 2 3 1 4Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="149.6"
+              cy="97.5"
+              r="4"
+              fill="#000"
+              transform="rotate(23 150 98)"
+            />
+            <path
+              fill="#fff"
+              fill-rule="evenodd"
+              d="M150 169v1a22 22 0 0 1 5-2h4l2 2 1 2-1 1 2 1 2 1v3l-2 3-3 4-2 1 3 2 2 3v3l-2 2-1 1 1 1v2l-2 2-3 1-5-1-4-1v-1h-2a21 21 0 0 1-3 4l-3 2h-2l-2-1-1-1h-3l-2-2v-3l1-5 1-3h-1l-4-2-4-2-2-3v-3l2-2h1l-1-1v-3l2-2h4a16 16 0 0 1 5 1v-5l2-4 2-3 2-1 3 1h1l3-1 2 1 1 3 1 4Z"
+              clip-rule="evenodd"
+            />
+            <circle
+              cx="144"
+              cy="183.8"
+              r="4"
+              fill="#000"
+              transform="rotate(23 144 184)"
+            />
+            <path
+              fill="#000"
+              d="M149 203c0 3-1 5-3 6-1 2-4 3-7 4 4 0 6 1 9 3l2 4 2 5c0 4-2 7-6 10-4 2-9 4-15 4s-11-1-14-3-4-5-4-9v-26l-2-7c6-3 12-4 19-4 6 0 11 1 14 4 3 2 5 6 5 9Zm-19 8 6-2c2-1 2-3 2-5l-2-5-6-2-7 1v13h7Zm-7 17c0 3 2 4 8 4l8-2 2-5-2-6-8-2h-8v11Zm85 9-5 1-4-1-2-5-2-32-11 35c-1 2-2 3-4 3l-3-1-1-2-11-36-2 33-2 5-4 2c-2 0-4-1-5-3l2-5 2-33-1-5c3-2 6-3 10-3 3 0 6 1 7 3 2 1 3 4 4 8l5 19 5-18c1-5 3-8 5-9 2-2 4-3 7-3l8 2-1 4v2l2 33 1 6Zm16-14h10l-5-17-5 17Zm28 12-3 3-4 1-4-2-3-4-2-4h-14l-2 5c-1 3-3 5-6 5l-4-1-2-3 2-1 1-3 13-34-2-4c1-2 3-3 6-3l5 2 3 6 11 31c1 3 3 5 5 6Zm10-37v15h3l7-2c2-1 3-3 3-5 0-3-1-5-3-6l-7-2h-3Zm27 36c-2 3-4 5-7 5l-5-2c-1 0-3-2-4-5l-8-12h-3v11c0 3 0 4 2 5l-6 3c-4 0-6-3-6-8v-33c0-2-1-4-3-4l6-3h11c5 0 10 1 13 4 4 2 6 6 6 11 0 3-1 5-3 7-1 3-4 4-6 5l7 12 6 4Zm13-11h10l-5-17-5 17Zm28 12-3 3-4 1-4-2-3-4-2-4h-14l-2 5c-1 3-3 5-6 5l-4-1-2-3 2-1 1-3 13-34-2-4c1-2 3-3 6-3l5 2 3 6 11 31c1 3 3 5 5 6Zm36-35-2 4-4 1-5-2 1-2-2-3-6-2-5 2-3 3c0 2 1 3 3 4l7 4 7 3 7 6c2 2 3 4 3 7 0 4-2 7-6 10-3 2-8 4-13 4s-9-1-13-3-5-5-5-8l1-4 5-2 5 2-1 4c0 1 0 2 2 3l6 1 6-1 3-4c0-2-1-4-3-5l-7-4-7-3-7-5c-2-2-3-4-3-7 0-4 2-7 6-9 3-3 7-4 12-4 6 0 10 1 13 3s5 4 5 7Z"
+            />
+          </svg>
+          <!-- </a> -->
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
@@ -182,11 +430,6 @@
               <li class="mb-4">
                 <a href="#" class="hover:text-pink-200">GitHub</a>
               </li>
-              <li>
-                <a href="#" class="hover:text-pink-200"
-                  >Terms &amp; Conditions</a
-                >
-              </li>
             </ul>
           </div>
         </div>
@@ -199,6 +442,7 @@
         <span class="text-sm text-white sm:text-center dark:text-gray-400"
           >© 2024 BMARAS
         </span>
+
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
           <a
             href="#"
