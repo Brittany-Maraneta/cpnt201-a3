@@ -4,22 +4,125 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <ul class="flex">
-      <li class="mr-6">
-        <a class="text-blue-500 hover:text-blue-800" href="#">Active</a>
-      </li>
-      <li class="mr-6">
-        <a class="text-blue-500 hover:text-blue-800" href="#">Link</a>
-      </li>
-      <li class="mr-6">
-        <a class="text-blue-500 hover:text-blue-800" href="#">Link</a>
-      </li>
-      <li class="mr-6">
-        <a class="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
-      </li>
-    </ul>
+    <nav class="bg-gray-400 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a
+          href="index.html"
+          class="text-white text-lg font-bold hover:text-pink-200"
+          >BMARAS</a
+        >
+
+        <ul class="flex space-x-4">
+          <li>
+            <a href="#" class="text-black hover:text-pink-200">Photography</a>
+          </li>
+          <li>
+            <a href="#" class="text-black hover:text-pink-200">Designs</a>
+          </li>
+          <li>
+            <a href="#" class="text-black hover:text-pink-200">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="my-30">
+      <div
+        class="w-full bg-center bg-cover"
+        style="
+          background-image: url(https://images.pexels.com/photos/1122414/pexels-photo-1122414.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        "
+      >
+        <div
+          class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-10"
+        >
+          <div class="text-center">
+            <div class="container px-4 mx-auto">
+              <div class="max-w-4xl mx-auto text-center">
+                <h2
+                  class="mt-auto mb-20 text-4xl lg:text-5xl font-bold text-gray-100"
+                >
+                  BMARAS
+                </h2>
+                <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                  Creator & Artist
+                </p>
+                <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
+                  Creating the best work to be proud of. I am an explorer who
+                  designs and creates work that will portray your favorite
+                  memories through film or photos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="flex flex-wrap justify-center">
+      <article
+        class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-80 max-w-sm mx-4 mt-24"
+      >
+        <img
+          src="https://images.pexels.com/photos/459335/pexels-photo-459335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="about"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"
+        ></div>
+        <h3 class="z-10 mt-3 text-3xl font-bold text-white hover:text-pink-200">
+          About Me
+        </h3>
+      </article>
+
+      <article
+        class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-80 max-w-sm mx-4 mt-24"
+      >
+        <img
+          src="https://images.pexels.com/photos/832811/pexels-photo-832811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="photos"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"
+        ></div>
+        <h3 class="z-10 mt-3 text-xl font-bold text-white hover:text-pink-200">
+          Photography/Videography
+        </h3>
+        <div
+          class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"
+        >
+          My love for photography and videography! Go through my favorite travel
+          places to document and some festival work!
+        </div>
+      </article>
+      <article
+        class="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-80 max-w-sm mx-4 mt-24"
+      >
+        <img
+          src="https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="design"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"
+        ></div>
+        <h3 class="z-10 mt-3 text-3xl font-bold text-white hover:text-pink-200">
+          Designs
+        </h3>
+        <div
+          class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300"
+        >
+          Explore through my designs in Web Development, video work, drawings,
+          and much more...
+        </div>
+      </article>
+    </div>
   </body>
 </html>
